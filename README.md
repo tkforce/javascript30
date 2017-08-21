@@ -2,7 +2,7 @@
 
 This is a vanilla javascript coding challenge from [JavaScript30](https://javascript30.com/) created by [Wes Bos](https://github.com/wesbos).
 
-[My Demo Site](tkforce.github.io/javascript30/)
+[My Demo Site](https://tkforce.github.io/javascript30/)
 
 #Day1
   - html: data attribute, audio
