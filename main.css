@@ -33,7 +33,7 @@ h1 {
 	display: -webkit-box;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 2em 4em;

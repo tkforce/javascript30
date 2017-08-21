@@ -5,7 +5,12 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
 #Day1
 
 html: data attribute, audio
-css: calc, flex, vertical/horizontal alignemnt, box-sizing
+css: calc, flex, vertical/horizontal alignemnt, box-sizing, justify-content
 js: document.querySelector
+
+#Day2
+
+css: transform-origin, transition-timing-function
+
 
 
