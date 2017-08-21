@@ -2,15 +2,12 @@
 
 This is a vanilla javascript coding challenge from [JavaScript30](https://javascript30.com/) created by [Wes Bos](https://github.com/wesbos).
 
-#Day1
+[My Demo Site](tkforce.github.io/javascript30/)
 
-html: data attribute, audio
-css: calc, flex, vertical/horizontal alignemnt, box-sizing, justify-content
-js: document.querySelector
+#Day1
+  - html: data attribute, audio
+  - css: calc, flex, vertical/horizontal alignemnt, box-sizing, justify-content
+  - js: document.querySelector
 
 #Day2
-
-css: transform-origin, transition-timing-function
-
-
-
+  - css: transform-origin, transition-timing-function
