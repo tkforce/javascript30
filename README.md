@@ -12,5 +12,12 @@ js: document.querySelector
 
 css: transform-origin, transition-timing-function
 
+#Day3
+
+How to 
+
+js: querySelectorAll return a node list instead of an array
+html: dataset is an object that contain all the attributes with "data-" prefix on that element
+
 
 
