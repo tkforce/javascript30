@@ -7,7 +7,7 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
 #Day1
   - HTML: data attribute, audio
   - CSS: calc, flex, vertical/horizontal alignemnt, box-sizing, justify-content
-  - JS: document.querySelector
+    - JS: document.querySelector
 
 
 #Day2
@@ -40,6 +40,8 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   ```
   - JS: querySelectorAll return a node list instead of an array
 
+#Day4
+  - Array.prototype.sort, Array.prototype.map, Array.prototype.filter, Array.prototype.reduce
 
 
 
