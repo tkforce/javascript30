@@ -41,7 +41,31 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   - JS: querySelectorAll return a node list instead of an array
 
 #Day4
-  - Array.prototype.sort 
+  - Array.prototype.sort
+    Syntax
+    ```javascript 
+    arr.sort([compareFunction])
+    ```
+    - If compareFunction is not supplied, elements are sorted by converting them to strings and comparing strings in Unicode code point order
+    - If compareFunction(a, b) returns < 0, sort a to an index lower than b, i.e. a comes first.
+    - If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other
+    - If compareFunction(a, b) returns > 0, sort b to a lower index than a.
+
+    example
+    ```javascript
+    function compare(a, b) {
+      if (a is less than b by some ordering criterion) {
+        return -1;
+      }
+      if (a is greater than b by the ordering criterion) {
+        return 1;
+      }
+      // a must be equal to b
+      return 0;
+    }
+    ```
+    
+    
   - Array.prototype.map 
   - Array.prototype.filter 
   - Array.prototype.reduce
