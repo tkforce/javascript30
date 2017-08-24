@@ -51,7 +51,7 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
     - If compareFunction(a, b) returns 0, leave a and b unchanged with respect to each other
     - If compareFunction(a, b) returns > 0, sort b to a lower index than a.
 
-    example
+    Example
     ```javascript
     function compare(a, b) {
       if (a is less than b by some ordering criterion) {
