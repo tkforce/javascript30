@@ -54,6 +54,7 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
 
     Example
     ```javascript
+    //compare non-number
     function compare(a, b) {
       if (a is less than b by some ordering criterion) {
         return -1;
@@ -63,6 +64,12 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
       }
       // a must be equal to b
       return 0;
+    }
+    
+    // compare number
+    function compareNumbers(a, b) {
+      //ascending order
+      return a - b;
     }
     ```
     
