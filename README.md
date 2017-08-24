@@ -41,7 +41,10 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   - JS: querySelectorAll return a node list instead of an array
 
 #Day4
-  - Array.prototype.sort, Array.prototype.map, Array.prototype.filter, Array.prototype.reduce
+  - Array.prototype.sort 
+  - Array.prototype.map 
+  - Array.prototype.filter 
+  - Array.prototype.reduce
 
 
 
