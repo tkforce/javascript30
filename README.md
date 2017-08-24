@@ -42,6 +42,7 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
 
 #Day4
   - Array.prototype.sort
+    
     Syntax
     ```javascript 
     arr.sort([compareFunction])
