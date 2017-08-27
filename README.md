@@ -78,6 +78,8 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   - Array.prototype.filter 
   - Array.prototype.reduce
 
-
+### Day5
+  - CSS: Flexbox usage, transition, transform,
+  - JS: use element.classList.toggle('className')to add/remove class on the element.
 
 
