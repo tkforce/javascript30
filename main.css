@@ -45,8 +45,8 @@ h1 {
 	background: #fff;
 	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
 	height: 250px;
-	justify-content: center;
-	list-style: none;
+/*	justify-content: center;
+*/	list-style: none;
 	margin-bottom: 2rem;
 	padding: 1rem;
 	position: relative;
