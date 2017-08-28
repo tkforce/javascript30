@@ -83,3 +83,6 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   - JS: use element.classList.toggle('className')to add/remove class on the element.
 
 
+### Day6
+  - CSS: use element.inlineHTML to replace dom.
+  - JS: regExp() usage, spread expression usage, 'keyup' eventlistener
