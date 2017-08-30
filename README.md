@@ -96,4 +96,6 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   - Array.prototype.slice: copy a new array
   - Array.prototype.splice: manipulate the original array
 
+### Day8
+  - html canvas usage
 
