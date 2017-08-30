@@ -86,3 +86,14 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
 ### Day6
   - CSS: use element.inlineHTML to replace dom.
   - JS: regExp() usage, spread expression usage, 'keyup' eventlistener
+  
+
+### Day7
+  - Array.prototype.some 
+  - Array.prototype.every 
+  - Array.prototype.find
+  - Array.prototype.findIndex
+  - Array.prototype.slice: copy a new array
+  - Array.prototype.splice: manipulate the original array
+
+
