@@ -10,6 +10,9 @@ const skipButtons = player.querySelectorAll('[data-skip]');
 const fullScreenButton = player.querySelector('.full_screen_button');
 const ranges = player.querySelectorAll('.player__slider');
 
+fetch("https://api.github.com/users/tkforce").then((result)=>{
+	console.log(result);
+})
 
 /* Build out functions */
 
