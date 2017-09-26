@@ -99,3 +99,31 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
 ### Day8
   - html canvas usage
 
+### Day14 Object and Array copy
+  - Array shallow copy:  
+    - Array.slice()
+    ```javascript
+      const team2 = players.slice();
+    ```
+    - Array.concat()
+    ```javascript
+      const team2 = [].concat(players);
+    ```   
+    - Spread opearator (ES6)
+    ```javascript
+      const team2 = [...players];
+    ```
+    - Array.from (ES6)
+    ```javascript
+      const team5 = Array.from(players);
+     ```
+  - Object shallow copy:
+    - Object.assign()
+    ```javascript
+      const cap2 = Object.assign({}, person, { number: 99, age: 12 });
+    ```
+  - Object deep copy:
+    - JSON.parse(), JSON.stringify()
+    ```javascript
+      const dev2 = JSON.parse(JSON.stringify(wes));
+    ```
