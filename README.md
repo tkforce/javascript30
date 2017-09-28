@@ -127,3 +127,23 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
     ```javascript
       const dev2 = JSON.parse(JSON.stringify(wes));
     ```
+    
+### Day15 Local Storage and Event delegation
+  - localstorage usage
+  ```javascript
+    localStorage.setItem("item", JSON.stringify(items));
+    JSON.parse(localStorage.getItem('item')
+  ```
+  - Event Delegation: listen to parent dom and react using e.target to distinguish which child is triggered  
+  ```javascript
+      function toggleDone(e){
+        //skip this unless its a input 
+        if(!e.target.matches('input')) return;
+        // do something
+      }  
+      itemsList.addEventListener('click', toggleDone);
+  ```
+
+
+
+
