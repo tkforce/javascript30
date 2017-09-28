@@ -145,16 +145,13 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
   ```
 
 ### Day16 Event Delegation
-```javascript
-  
+```javascript 
     function shadow(){   
       if(this !== e.target){
         //'this' will always be hero, but 'e.target' will change depends on which element(child) is being hoverd
       }
     }
-
     hero.addEventListener('mousemove', shadow);
-
 ```
 
 
