@@ -153,5 +153,44 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
     }
     hero.addEventListener('mousemove', shadow);
 ```
-
-
+### Day19 Filter Cam
+  - How to get video stream from the Webcam and display on video element
+  ```javascript
+    function getVideo(){
+      navigator.mediaDevices.getUserMedia({video: true, audio: false})
+      .then(localMediaStream => {
+        video.src = window.URL.createObjectURL(localMediaStream);
+        video.play();
+      })
+    }
+  ```
+  - Taking snapshot and display on the screen
+  ```javascript
+    function takePhoto(){
+      //sound effect
+      snap.currentTime = 0;
+      snap.play();
+      //save snapshot as a link with image on it
+      const data = canvas.toDataURL('image/jpeg');
+      const link = document.createElement('a');
+      link.href = data;
+      link.setAttribute('download', 'handsome');
+      link.innerHTML = `<image src=${data} ></image>`;
+      strip.insertBefore(link, strip.firstChild);
+    }
+  ```
+  - Filter is to manipulate pixels of the snapshot
+  ```javascript
+      function redEffect(pixels) {
+        for(let i = 0; i < pixels.data.length; i+=4) {
+          pixels.data[i + 0] = pixels.data[i + 0] + 100; // RED
+          pixels.data[i + 1] = pixels.data[i + 1] - 50; // GREEN
+          pixels.data[i + 2] = pixels.data[i + 2] * 0.5; // Blue
+        }
+        return pixels;
+      }
+      
+      let pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      pixels = redEffect(pixels);
+  ```
+  
