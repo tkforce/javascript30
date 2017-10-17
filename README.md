@@ -191,6 +191,6 @@ This is a vanilla javascript coding challenge from [JavaScript30](https://javasc
       }
       
       let pixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      pixels = redEffect(pixels);
+      pixels = redEffect(pixels); 
   ```
   
